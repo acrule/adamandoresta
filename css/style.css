@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #E2E1E3;
     font-family: 'Lato', sans-serif;
     font-size: 1.65em;
@@ -8,14 +8,25 @@ h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
 }
 
-h3{
+h3 {
     color: green;
     font-weight: 700;
+}
+
+hr {
+    margin: 0px 24px;
+    border-top: 1px solid green;
+}
+
+strong {
+    font-weight: 900;
+    color: green;
 }
 
 #hero{
     position: relative;
     color: white;
+    margin-top: 12px;
 }
 
 #hero h1{
@@ -30,44 +41,29 @@ h3{
 
 #hero h3{
     font-size: 2.5em;
-    margin-top: 18px;
+    margin-top: 0px;
     font-weight: normal;
     color: white;
 }
 
 #footer{
-    background-color: #74b05d;
-    height: 40px;
-    margin-top: 40px;
-    padding-top: 10px;
-    font-size: 1.2em;
-    text-align: right;
-    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hero-text{
-    bottom:5%;
-    left:5%;
+    top:3%;
+    left:4%;
     position: absolute;
     text-shadow: 1px 1px #666;
 }
 
 .hero-text-small h4{
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
     color: #328332;
 }
 
-strong {
-    font-weight: 900;
-}
-
-.breathe{
-    margin-bottom: 0px;
-}
-
-@media (min-width: 992px){
-    .breathe{
-        margin-bottom: 24px;
-    }
+.first-line{
+    margin: 48px 0px;
 }
