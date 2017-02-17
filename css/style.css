@@ -2,48 +2,51 @@ body {
     background-color: #E2E1E3;
     font-family: 'Lato', sans-serif;
     font-size: 1.65em;
+    color: #444;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', serif;
-}
-
-h3 {
-    color: green;
+    color: #77805c;
     font-weight: 700;
 }
 
 hr {
     margin: 0px 24px;
-    border-top: 1px solid green;
+    border-top: 1px solid #77805c;
 }
 
 strong {
     font-weight: 900;
-    color: green;
+    color: #77805c;
 }
 
 #hero{
     position: relative;
-    color: white;
     margin-top: 12px;
+    font-weight: 400;
+    color: white;
 }
 
 #hero h1{
     font-size: 7em;
     line-height: 90%;
     margin-bottom: 48px;
+    font-weight: normal;
+    color: #eee;
 }
 
 #hero h2{
     font-size: 4em;
+    font-weight: normal;
+    color: #eee;
 }
 
 #hero h3{
     font-size: 2.5em;
     margin-top: 0px;
     font-weight: normal;
-    color: white;
+    color: #eee;
 }
 
 #footer{
@@ -55,15 +58,32 @@ strong {
     top:3%;
     left:4%;
     position: absolute;
-    text-shadow: 1px 1px #666;
+    text-shadow: 1px 1px #745151;
 }
 
 .hero-text-small h4{
     font-size: 1.8em;
     text-align: center;
-    color: #328332;
+    color: #9ebd9e;
 }
 
 .first-line{
-    margin: 48px 0px;
+    margin: 24px -15px 12px -15px;
+}
+
+.details{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
+}
+
+.btn-sage {
+    border-color: #444;
+    background-color: #9ebd9e;
+    color: #444;
+}
+
+.btn-sage:hover {
+    border-color: #444;
+    background-color: #f1e8ca;
+    color: #444;
 }
