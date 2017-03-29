@@ -26,6 +26,7 @@ strong {
     margin-top: 12px;
     font-weight: 400;
     color: white;
+    text-align: right;
 }
 
 #hero h1{
@@ -33,17 +34,17 @@ strong {
     line-height: 90%;
     margin-bottom: 48px;
     font-weight: normal;
-    color: #eee;
+    color: white;
 }
 
 #hero h2{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: normal;
     color: #eee;
 }
 
 #hero h3{
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 0px;
     font-weight: normal;
     color: #eee;
@@ -56,15 +57,15 @@ strong {
 
 .hero-text{
     top:3%;
-    left:4%;
+    right:4%;
     position: absolute;
-    text-shadow: 1px 1px #745151;
+    text-shadow: 1px 1px #666;
 }
 
 .hero-text-small h4{
-    font-size: 1.8em;
+    font-size: 1.4em;
     text-align: center;
-    color: #9ebd9e;
+    color: #666;
 }
 
 .first-line{
