@@ -55,6 +55,18 @@ strong {
     margin-bottom: 20px;
 }
 
+.photo-collage{
+    margin-top: 30px;
+}
+
+.photo-collage img{
+    padding-bottom: 30px;
+}
+
+.hero{
+    margin-top: 10px;
+}
+
 .hero-text{
     top:3%;
     right:4%;
