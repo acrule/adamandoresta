@@ -1,14 +1,19 @@
 body {
     background-color: #E2E1E3;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 1.65em;
     color: #444;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     color: #69816F;
     font-weight: 700;
+}
+
+.fancy-text{
+  font-family: 'Cormorant Garamond', serif;
 }
 
 hr {
@@ -32,7 +37,6 @@ strong {
 #hero h1{
     font-size: 7em;
     line-height: 90%;
-    margin-bottom: 48px;
     font-weight: normal;
     color: white;
 }
@@ -53,6 +57,14 @@ strong {
 #footer{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+h1.tight{
+  margin-bottom: 0px;
+}
+
+h2.tight{
+  margin-top: 0px;
 }
 
 .photo-collage{
@@ -102,5 +114,5 @@ strong {
 }
 
 a{
-    color: #666;
+    color: steelblue;
 }
