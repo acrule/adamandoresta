@@ -101,6 +101,10 @@ h2.tight{
     font-size: 1.3em;
 }
 
+.pad24{
+  padding-bottom: 24px;
+}
+
 .btn-sage {
     border-color: #444;
     background-color: #9ebd9e;
